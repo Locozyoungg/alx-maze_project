@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Recommender</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Discover new music tailored to your taste. Our advanced recommendation engine helps you find songs you'll love based on your listening history.</p>
+    </section>
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="username" required>
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <section id="recommendations">
+        <h2>Your Recommendations</h2>
+        <ul id="song-list">
+            <!-- List of recommended songs will appear here -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Music Recommender. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
