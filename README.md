@@ -1,7 +1,7 @@
 ## Music Recommendation Website
 ## Overview
 ## Overview
-This project aims to create a professional music recommendation website. The back end is built using FastAPI, SQLAlchemy, and other modern Python libraries. The front end will be developed latThis project aims to create a professional music recommendation website. The back end is built using FastAPI, SQLAlchemy, and other modern Python libraries. The front end will be developed later. This README file provides instructions for setting up and running the back end.
+This project aims to create a professional music recommendation website. The back end is built using FastAPI, SQLAlchemy, and other modern Python libraries. The front end will be developed later.This project aims to create a professional music recommendation website. This README file provides instructions for setting up and running the back end.
 ## Features
 ## Features
 - User authentication and management
@@ -44,3 +44,7 @@ music-recommendation/
 1. Clone the repository:
     .
 uvicorn app.main:app --reloadg Uvicorn:Initial migrationse.
+#authors linkedin name and the URL
+1. 
+2. Amos Shikoli (https://www.linkedin.com/in/amos-shikoli-426bb2284/)
+
