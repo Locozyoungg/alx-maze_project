@@ -42,8 +42,9 @@ music-recommendation/
 ### Installation
 1. Clone the repository:
 1. Clone the repository:
-    .
-uvicorn app.main:app --reloadg Uvicorn:Initial migrationse.
+Run- uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+Run- streamlit run streamlit_app.py
+
 #authors linkedin name and the URL
 1. Collins Oloo (https://www.linkedin.com/in/collins-oloo-569992a7/)
 2. Amos Shikoli (https://www.linkedin.com/in/amos-shikoli-426bb2284/)
