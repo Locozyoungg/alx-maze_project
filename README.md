@@ -45,6 +45,6 @@ music-recommendation/
     .
 uvicorn app.main:app --reloadg Uvicorn:Initial migrationse.
 #authors linkedin name and the URL
-1. 
+1. Collins Oloo (https://www.linkedin.com/in/collins-oloo-569992a7/)
 2. Amos Shikoli (https://www.linkedin.com/in/amos-shikoli-426bb2284/)
 
